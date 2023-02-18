@@ -4,7 +4,8 @@
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
 
-@media (max-width: 84em) {
+@media (max-width: 84em) {}
+}
   .hero {
     max-width: 120rem;
   }
@@ -24,7 +25,7 @@
 
 @media (max-width: 75em) {
   html {
-    /* 9px / 16px  */
+  
     font-size: 56.25%;
   }
 
@@ -352,5 +353,4 @@
   .no-flexbox-gap .main-nav-list li:not(:last-child) {
     margin-right: 0;
     margin-bottom: 4.8rem;
-  }
-}
+  
